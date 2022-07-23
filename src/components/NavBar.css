@@ -1,0 +1,16 @@
+.h1-brand-title {
+    font-family: 'Grandstander', serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+.nav-lower {
+    height: 80px;
+}
+
+.nav-upper {
+    align-items: center;
+    display: flex;
+    height: 128px;
+    justify-content: center;
+}

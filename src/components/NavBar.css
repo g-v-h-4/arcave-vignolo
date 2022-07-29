@@ -10,9 +10,17 @@
 
 .nav-upper {
     align-items: center;
-    display: flex;
+    display: grid;
     height: 128px;
-    justify-content: center;
     margin: auto;
     width: 960px;
+}
+
+.nav-upper > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.nav-upper > *:last-child {
+    justify-self: right;
 }

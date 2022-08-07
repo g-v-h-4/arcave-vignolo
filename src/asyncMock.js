@@ -10,3 +10,9 @@ export const getProducts = () => {
         setTimeout(() => { resolve(products) }, 2000);
     });
 }
+
+export const getProductById = (id) => {
+    return new Promise((resolve) => {
+        setTimeout(() => { resolve(products.find(p => p.id === id)) }, 2000);
+    });
+}

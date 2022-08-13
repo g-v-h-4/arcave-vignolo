@@ -1,7 +1,6 @@
-import {getProductById, getProducts, getProductsByCategory} from "../asyncMock.js";
+import { getProducts, getProductsByCategory } from '../asyncMock.js';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './ItemListContainer.css';
 import ItemList from './ItemList.js';
 
 

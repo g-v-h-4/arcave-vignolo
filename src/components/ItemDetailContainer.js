@@ -21,7 +21,6 @@ const ItemDetailContainer = () => {
     return (
         <>
             <h1>Detalle</h1>
-            {/*<h2>{ product?.name }</h2>*/}
             <ItemDetail { ...product }/>
         </>
     );

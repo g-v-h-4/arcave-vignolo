@@ -10,9 +10,9 @@ const NavBar = () => {
                 <CartWidget/>
             </div>
             <div className="nav-lower">
-                <Link className="button-nav" to="/category/top">TOP SELLERS</Link>
-                <Link className="button-nav" to="/category/arcade">ARCADE</Link>
-                <Link className="button-nav" to="/category/pinball">PINBALL</Link>
+                <Link className="nav-button" to="/category/top">TOP SELLERS</Link>
+                <Link className="nav-button" to="/category/arcade">ARCADE</Link>
+                <Link className="nav-button" to="/category/pinball">PINBALL</Link>
             </div>
         </nav>
     );

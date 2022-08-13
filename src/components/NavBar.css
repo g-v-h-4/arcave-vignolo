@@ -1,12 +1,14 @@
 .h1-brand-title {
+    color: #000000;
     font-family: 'Grandstander', serif;
     font-size: 48px;
+    font-weight: bold;
     text-decoration: none;
     margin: 0;
 }
 
 .nav-lower {
-    height: 80px;
+    line-height: 80px;
 }
 
 .nav-upper {
@@ -24,4 +26,15 @@
 
 .nav-upper > *:last-child {
     justify-self: right;
+}
+
+.nav-button {
+    background-color: #FABE28;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'KoHo', serif;
+    font-size: 28px;
+    height: 100%;
+    text-decoration: none;
+    width: 320px;
 }

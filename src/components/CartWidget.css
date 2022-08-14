@@ -1,5 +1,7 @@
 .cart-widget {
+    font-family: 'KoHo', serif;
     padding: 8px;
+    text-decoration: none;
 }
 
 .icon-cart-widget {
